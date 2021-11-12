@@ -105,7 +105,7 @@ figcaption {
 }
 
 #gov2 {
-  width: 45%;  
+  width: 45%;
   float: right;
 }
 
@@ -156,7 +156,7 @@ ul li.A {
 .aside {
   max-width: 90%;
   list-style-type: disc;
-  background: #D4BEE3;
+  background: #D0CAD5;
   padding: 20px;
   border: none;
 }
