@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: rgba(88, 90, 107, 0.5);
+}
+
+section {
+  background-color: #ddd;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 20px;
+
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #222;
+  max-width: 95%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.alt image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+}
+
+#intro {
+  grid-column: 1;
+  grid-row: 1 / 1;
+}
+#geography {
+  grid-column: 2;
+  grid-row: 1 / 3;
+}
+
+#government {
+  grid-column: 1 / span 2;
+}
+
+#gov1 {
+  width: 47%; 
+  float: left; 
+  margin-bottom: 16px; 
+}
+
+#gov2 {
+  width: 49%; 
+  float: right;
+  margin-bottom: 16px;   
+}
+
+#gov4 {
+  width: 49%; 
+  float: left;
+  margin-bottom: 16px;   
+}
+
+#gov3 {
+  width: 49%; 
+  float: right;
+  margin-bottom: 16px;   
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #242424;
+}
+
+ul[type="a"] {
+  list-style-type: circle;
+  margin-left: 5px;
+  border: none;
+}
+
+ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #242424;
+}
+
+ul li[type="a"] {
+  list-style-type: circle;
+  margin-left: 16px;
+  border: none;
+}
+
+#ethnic, #religions {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  justify-content: center;
+}
+
+#ethnic td, #ethnic th {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+#religions td, #religions th {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+#ethnic tr:hover {background-color: #BBC0EA;}
+#religions tr:hover {background-color: #BBC0EA;}
+
+
