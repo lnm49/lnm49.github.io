@@ -45,6 +45,9 @@ a:visited {
 a:hover {
   text-decoration: underline;
 }
+a:active {
+  background-color: rgb(255,0,0);
+}
 
 section {
   background-color: #ddd;
@@ -73,7 +76,6 @@ figure img {
 
 figcaption {
   text-align: center;
-  float: right;
 }
 
 .alt image {
@@ -140,36 +142,30 @@ ul {
   border: 1px solid #242424;
 }
 
-ul[type="a"] {
+ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #242424;
+}
+
+ul li.A {
+  list-style-type: circle;
+  border: none;
+  margin-left: 16px;
+}
+
+.A{
   list-style-type: circle;
   margin-left: 5px;
   border: none;
 }
 
-ul[type="aside"] {
+.aside {
   max-width: 90%;
   list-style-type: disc;
   background: #D4BEE3;
   padding: 20px;
   border: none;
 }
-
-ul li {
-  padding: 8px 16px;
-  border-bottom: 1px solid #242424;
-}
-
-ul li[type="a"] {
-  list-style-type: circle;
-  border: none;
-  margin-left: 16px;
-}
-
-ul li[type="aside"] {
-  background: #cce5ff;
-  border: none;
-}
-
 #ethnic, #religions {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 16px;
