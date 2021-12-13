@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+  font-family: 'Muli', Arial, Helvetica Neue, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: rgba(88, 90, 107, 0.5);
+  font-size: 16px;
+  color: #FFFF;
+  padding: 70px;
+  /*background-image: url(https://s3-us-west-2.amazonaws.com/melingoimages/Images/108064.jpg);*/
+  background-image: url(../images/earth-city-lights-1994-1995.jpg);
+}
+
+h1 {
+  font-family: 'Quicksand', Century Gothic, AppleGothic, sans-serif;
+  font-size: 38px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+h3 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+a:visited {
+  color: #F0D154;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgba(63, 63, 63, 0.5);
+}
+a:active {
+  background-color: rgb(255,0,0);
+}
+
+section {
+  background-color: rgba(63,142,191,0.4);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+figure img {
+  /*display: block;*/
+  margin-left: -35px;
+  margin-right: auto;
+  border: 1px solid #222;
+  max-width: 120%;
+
+}
+
+figcaption {
+  text-align: center;
+  font-size: 7pt; 
+}
+
+#intro {
+  grid-column: 1;
+  grid-row: 1;
+}
+#continents {
+  grid-column: 2/ span 4;
+  grid-row: 1;
+  background-image: url(../images/continents.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  background-color: rgba(63,142,191,0.1);
+  width: 92%;
+}
+
+#na {
+  grid-column: 1/ span 4;
+  grid-row: 2 ;
+}
+
+#na1 {
+  grid-column: 1/ span 2;
+  grid-row: 3;
+}
+
+#na2 {
+  grid-column: 3/ span 2;
+  grid-row: 3;
+}
+
+#back2top1 {
+  grid-column: 2/span 2;
+  background-color: #0000;
+  border: all;
+  max-height: 3px;
+  text-align: center;
+  margin-right: 5px;
+  grid-row: 4;
+}
+
+#sa {
+ grid-column: 1/ span 4;
+  grid-row: 5;
+}
+
+#sa1 {
+  grid-column: 1/ span 2;
+  grid-row: 6;
+}
+
+#sa2 {
+  grid-column: 3/ span 2;
+  grid-row: 6;
+}
+
+#back2top2 {
+  grid-column: 2/span 2;
+  background-color: #0000;
+  border: all;
+  max-height: 3px;
+  text-align: center;
+  margin-right: 5px;
+  grid-row: 7;
+}
+
+#eu {
+  grid-column: 1/ span 4;
+  grid-row: 8;
+}
+
+#eu1 {
+  grid-column: 1/ span 2;
+  grid-row: 9;
+}
+
+#eu2 {
+  grid-column: 3/ span 2;
+  grid-row: 9;
+}
+
+#back2top3 {
+  grid-column: 2/span 2;
+  background-color: #0000;
+  border: all;
+  max-height: 3px;
+  text-align: center;
+  margin-right: 5px;
+  grid-row: 10;
+}
+
+#af {
+  grid-column: 1/ span 4;
+  grid-row: 11;
+}
+
+#af1 {
+  grid-column: 1/ span 2;
+  grid-row: 12;
+}
+
+#af2 {
+  grid-column: 3/ span 2;
+  grid-row: 12;
+}
+
+#back2top4 {
+  grid-column: 2/span 2;
+  background-color: #0000;
+  border: all;
+  max-height: 3px;
+  text-align: center;
+  margin-right: 5px;
+  grid-row: 13;
+}
+
+#as {
+  grid-column: 1/ span 4;
+  grid-row: 14;
+}
+
+#as1 {
+  grid-column: 1/ span 2;
+  grid-row: 15;
+}
+
+#as2 {
+  grid-column: 3/ span 2;
+  grid-row: 15;
+}
+
+#oc {
+  grid-column: 1/ span 4;
+  grid-row: 16;
+}
+
+#oc1 {
+  grid-column: 3/4;
+  grid-row: 17;
+}
+
+#back2top5 {
+  grid-column: 2/span 2;
+  background-color: #0000;
+  border: all;
+  max-height: 3px;
+  text-align: center;
+  margin-right: 5px;
+  grid-row: 18;
+  border-color: #FFFF
+}
+
+#NA {
+  width: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 1px; left: 140px;
+}
+
+#SA {
+  width: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 68px; left: 190px;
+}
+
+#EU {
+  width: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: -73px; left: 350px;
+}
+
+#AS {
+  width: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: -150px; left: 459px;
+}
+
+#OC {
+  width: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: 47px; left: 520px;
+}
+
+#AF {
+  width: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  top: -52px; left: 335px;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
